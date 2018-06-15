@@ -96,7 +96,7 @@ Yann LeCun: For the learning time to be minimized, **the use of non-zero mean in
 >If the activation function is non-symmetric, as in the case of the sigmoid function, the output of of each neuron is restricted to the interval [0,1]. Such a choice **introduces a source of systematic bias** for those neurons located beyond the first layer of the network. To overcome this problem we need to use an antisymmetric activation function such as the hyperbolic tangent function. With this latter choice, the output of each neuron is permitted to assume both positive and negative values in the interval [−1,1], in which case it is likely for **its mean to be zero**. If the network connectivity is large, back-propagation learning with antisymmetric activation functions can yield **faster convergence** than a similar process with non-symmetric activation functions, for which there is also empirical evidence.
 
 
-![Tanh and logistic sigmoid](https://JuneEtoile.github.io/images/relu_sigmoid.png)
+![Tanh and logistic sigmoid](https://JuneEtoile.github.io/images/relu_sigmoid.jpeg)
 
 * Relu /leaky Relu(rectified linear unit) activation function
 
@@ -106,7 +106,7 @@ Relu makes the activations to be **sparse and efficient**. Leaky relu is designe
 
 1. Question: Why do not use relu in LSTM (RNN)?
 
-Answer: 1. It exits, such Hinto's IRNN. 2. Nonnegative output of RELU (non-symmetric)
+Answer: (1). It exits, such Hinto's IRNN. (2). Nonnegative output of RELU (non-symmetric)
 
 2. Question: Since Relu has non-symmetric property, why it performs superb on image data?
 
