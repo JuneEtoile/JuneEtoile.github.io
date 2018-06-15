@@ -18,4 +18,4 @@ autoNumber: "AMS"
 </script>
 
 # Table of contents
-* [$L_1$, $L_2$, $L_{\infinite}$ Norm]( # $L_1$, $L_2$, $L_{\infinite}$ Norm)
+* [$L_1$, $L_2$, $L_{\infty}$ Norm]( # $L_1$, $L_2$, $L_{\infty}$ Norm)
