@@ -21,8 +21,9 @@ autoNumber: "AMS"
 # Table of contents
   * [$L_1$, $L_2$, $L_{\infty}$ Norm]( ## $L_1$, $L_2$, $L_{\infty}$ Norm)
   * [Convex Optimization](## Convex Optimization in Machine Learning)
-  * [SMO](## SMO)
-  * [Activation Functions](## Activation Functions in Deep Learning)
+  * [SMO](#SMO)
+  * [EM](#EM)
+  * [Activation Functions](#Activation Functions in Deep Learning)
 
 ## $L_1$, $L_2$, $L_{\infty}$ Norm
 In machine learning, we may have $L_0$, $L_1$, $L_2$, and $L_{\infty}$ norm. Different norm has different purpose and property. Lets take a look:
