@@ -17,6 +17,7 @@ autoNumber: "AMS"
 }
 });
 </script>
+
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 	- [$L_1$, $L_2$, $L_{\infty}$ Norm](#l1-l2-linfty-norm)
