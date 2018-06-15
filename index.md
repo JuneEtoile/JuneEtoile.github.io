@@ -17,18 +17,39 @@ autoNumber: "AMS"
 }
 });
 </script>
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-# Table of contents
-  * [$L_1$, $L_2$, $L_{\infty}$ Norm]( ## $L_1$, $L_2$, $L_{\infty}$ Norm)
-  * [Convex Optimization](## Convex Optimization in Machine Learning)
-  * [Sequential Minimal Optimization (SMO)](#SMO)
-  * [Expectation Maximization Algorithm (EM) and Mixture Models (Mixture of Gaussians)](#EM)
-  * [Activation Functions](#Activation Functions in Deep Learning)
+	- [$L_1$, $L_2$, $L_{\infty}$ Norm](#l1-l2-linfty-norm)
+	- [Convex Optimization in Machine learning](#convex-optimization-in-machine-learning)
+	- [Sequential Minimal Optimization (SMO)](#sequential-minimal-optimization-smo)
+	- [Expectation Maximization Algorithm (EM) and Mixture Models (Mixture of Gaussians)](#expectation-maximization-algorithm-em-and-mixture-models-mixture-of-gaussians)
+	- [Activation Functions in Deep learning](#activation-functions-in-deep-learning)
+	- [Cost Functions](#cost-functions)
+
+<!-- /TOC -->
+
+[^_^]:
+    # Table of contents
+      * [$L_1$, $L_2$, $L_{\infty}$ Norm]( ## $L_1$, $L_2$, $L_{\infty}$ Norm)
+      * [Convex Optimization](## Convex Optimization in Machine Learning)
+      * [Sequential Minimal Optimization (SMO)](#SMO)
+      * [Expectation Maximization Algorithm (EM) and Mixture Models (Mixture of Gaussians)](#EM)
+      * [Activation Functions](#Activation Functions in Deep Learning)
 
 ## $L_1$, $L_2$, $L_{\infty}$ Norm
 In machine learning, we may have $L_0$, $L_1$, $L_2$, and $L_{\infty}$ norm. Different norm has different purpose and property. Lets take a look:
 
-- $L_0$ norm is used to count the number of non zeros entries.
+- $L_0$ norm is used to count the number of non zeros entries.<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Table of contents](#table-of-contents)
+	- [$L_1$, $L_2$, $L_{\infty}$ Norm](#l1-l2-linfty-norm)
+	- [Convex Optimization in Machine learning](#convex-optimization-in-machine-learning)
+	- [Sequential Minimal Optimization (SMO)](#sequential-minimal-optimization-smo)
+	- [Expectation Maximization Algorithm (EM) and Mixture Models (Mixture of Gaussians)](#expectation-maximization-algorithm-em-and-mixture-models-mixture-of-gaussians)
+	- [Activation Functions in Deep learning](#activation-functions-in-deep-learning)
+	- [Cost Functions](#cost-functions)
+
+<!-- /TOC -->
 
 **Regularization** is mainly used to choose a prefered model, so that the model is neither underfitting (too simple model) nor overfitting (too complex model).
 
