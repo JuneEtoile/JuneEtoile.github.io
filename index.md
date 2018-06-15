@@ -19,3 +19,11 @@ autoNumber: "AMS"
 
 # Table of contents
 * [$L_1$, $L_2$, $L_{\infty}$ Norm]( # $L_1$, $L_2$, $L_{\infty}$ Norm)
+* [Convex Optimization](# Convex Optimization in Machine Learning) 
+* [SMO] (# SMO)
+
+# $L_1$, $L_2$, $L_{\infty}$ Norm
+
+# Convex Optimization in Machine learning
+
+# SMO
