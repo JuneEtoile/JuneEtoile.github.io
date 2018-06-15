@@ -23,6 +23,16 @@ autoNumber: "AMS"
   * [SMO](# SMO)
 
 ## $L_1$, $L_2$, $L_{\infty}$ Norm
+In machine learning, we may have $L_0$, $L_1$, $L_2$, and $L_{\infty}$ norm. Different norm has different purpose and property. Lets take a look:
+
+- $L_0$ norm is used to count the number of non zeros entries.
+
+- Both $L_1$ and $L_2$ regularizations help to sovle the overfitting problem in machine learning.
+
+L1 and L2 regularization prevents overfitting by shrinking on the coefficients. L2 (Ridge) shrinks all the coefficient to be very small but eliminates none, while L1 (Lasso) can shrink some coefficients to zero, performing variable selection.
+
+  - $L_1$ norm (lasso loss) will make the solution to have the sparse property, such as the $L_1$ norm soft margin SVM. It is a greaty property for high dimensional data (model compressing, feature selection). L1 is not differentiable.
+  - $L_2$ norm (ridge loss) tends to have smooth solution compared to $L_1$ norm. L2 is differentiable, gradient desent can be used.
 
 ## Convex Optimization in Machine learning
 
