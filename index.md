@@ -53,8 +53,14 @@ A figure is shown for these two regulrizations:
 
 
 ## Convex Optimization in Machine learning
+* How to know that a function is a convex function?
+    * First order and second order (Hessian matrix: nonnegative semi-definite) conditions (characterizations).
+* Convex problem formulation:
+
 
 ## Sequential Minimal Optimization (SMO)
+
+
 
 ## Expectation Maximization Algorithm (EM) and Mixture Models (Mixture of Gaussians)
 Used in the situation when latent variables (or missing data) are presented, such as mixture Gaussian model.
@@ -78,5 +84,40 @@ the missing values given the parameters (E step), and then optimizing the parame
 [1]: Machine Learning: A Probabilistic Perspective
 
 ## Activation Functions in Deep learning
+* Sigmoid function: two class (to probability 0, 1)
+* Softmax function: multi-class situation
+* Tanh function: map to range (-1, 1)
+
+>The advantage is that the negative inputs will be mapped strongly negative and the zero inputs will be mapped near zero in the tanh graph.
+
+>The function is differentiable and monotonic while its derivative is not monotonic, mainly used classification between two classes.
+
+Yann LeCun: For the learning time to be minimized, **the use of non-zero mean inputs should be avoided**.
+>If the activation function is non-symmetric, as in the case of the sigmoid function, the output of of each neuron is restricted to the interval [0,1]. Such a choice **introduces a source of systematic bias** for those neurons located beyond the first layer of the network. To overcome this problem we need to use an antisymmetric activation function such as the hyperbolic tangent function. With this latter choice, the output of each neuron is permitted to assume both positive and negative values in the interval [−1,1], in which case it is likely for **its mean to be zero**. If the network connectivity is large, back-propagation learning with antisymmetric activation functions can yield **faster convergence** than a similar process with non-symmetric activation functions, for which there is also empirical evidence.
+
+
+![Tanh and logistic sigmoid](https://JuneEtoile.github.io/images/relu_sigmoid.png)
+
+* Relu /leaky Relu(rectified linear unit) activation function
+
+Relu makes the activations to be **sparse and efficient**. Leaky relu is designed to make the gradient be non zero. Because the zero derivative will cause several neurons to just die and not respond to the variation in error.
+
+>ReLu is **less computationally expensive** than tanh and sigmoid because it involves simpler mathematical operations. That is a good point to consider when we are designing **deep neural nets**.
+
+1. Question: Why do not use relu in LSTM (RNN)?
+
+Answer: 1. It exits, such Hinto's IRNN. 2. Nonnegative output of RELU (non-symmetric)
+
+2. Question: Since Relu has non-symmetric property, why it performs superb on image data?
+
+Reference:
+
+1: https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6
+
+2: https://medium.com/the-theory-of-everything/understanding-activation-functions-in-neural-networks-9491262884e0
 
 ## Cost Functions
+
+* Cross Entropy loss
+* Least Square Loss(L2 loss), L1 Loss
+* Maximum Log likelihood Loss
