@@ -106,7 +106,7 @@ Relu makes the activations to be **sparse and efficient**. Leaky relu is designe
 
 1. Question: Why do not use relu in LSTM (RNN)?
 
-Answer: (1). It exits, such Hinto's IRNN. (2). Nonnegative output of RELU (non-symmetric)
+   Answer: (1). It exits, such Hinto's IRNN. (2). Nonnegative output of RELU (non-symmetric)
 
 2. Question: Since Relu has non-symmetric property, why it performs superb on image data?
 
