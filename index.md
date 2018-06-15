@@ -27,7 +27,11 @@ In machine learning, we may have $L_0$, $L_1$, $L_2$, and $L_{\infty}$ norm. Dif
 
 - $L_0$ norm is used to count the number of non zeros entries.
 
-- Both $L_1$ and $L_2$ regularizations help to sovle the overfitting problem in machine learning.
+**Regularization** is mainly used to choose the prefered model. so that the model is neither underfitting (two simple model) nor overfitting (two complex model). 
+
+How to do it? It just add a penalty term to the objective function by controlling the **regularization's magnitude** (which is related to the model complexity, large magnitude of the regularization corresponds to complex model and vice versa) to control the model complexity.
+
+Both $L_1$ and $L_2$ regularizations help to sovle the overfitting problem in machine learning.
 
 L1 and L2 regularization prevents overfitting by shrinking on the coefficients. L2 (Ridge) shrinks all the coefficient to be very small but eliminates none, while L1 (Lasso) can shrink some coefficients to zero, performing variable selection.
 
